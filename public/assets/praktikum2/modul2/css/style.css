@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+p{
+    text-align: justify;
+}
+#box{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+#header{
+    background-color: aqua;
+    padding: 20px;
+}
+#menuBar{
+    background-color: blue;
+    margin: auto;
+}
+.teksMenu{
+    text-decoration: none;
+    color: black;
+}
+#konten{
+    padding: 20px;
+}
+#footer{
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+}

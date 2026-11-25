@@ -1,0 +1,59 @@
+html { scroll-behavior: smooth; }
+
+body {
+    background: #f4f6f9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.page-main {
+    flex: 1 0 auto;
+    padding: 100px 0 56px;
+}
+
+.title-bar {
+    background-color: #212529;
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+.title-bar h2 { margin: 0; font-weight: bold; }
+
+.card {
+    border: 0;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    transition: transform .3s;
+}
+.card.card-hover:hover { transform: translateY(-6px); }
+.card .card-img-top { height: 220px; object-fit: cover; }
+.card-body { padding: 1.75rem; }
+
+.carousel { border-radius: 20px; overflow: hidden; box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15); }
+.carousel-item img { height: 480px; object-fit: cover; }
+@media (max-width: 767.98px) { .carousel-item img { height: 260px; } }
+
+footer {
+    flex-shrink: 0;
+    background: #212529;
+    color: #fff;
+    padding: 20px;
+}
+
+/* ---- landing page satu halaman ---- */
+.section-block { margin-bottom: 64px; scroll-margin-top: 90px; }
+.section-block:last-child { margin-bottom: 0; }
+.title-bar p { font-size: .95rem; margin-top: 4px; }
+.foto-profil { width: 220px; height: 220px; object-fit: cover; }
+
+/* ---- list project & menu praktikum ---- */
+.list-group-item-action { transition: background-color .2s, color .2s; }
+.list-group-item-action:hover { background-color: #0d6efd; color: #fff; }
+.list-group-item-action:hover small { color: #dbe7ff !important; }
+.page-main-menu { padding-top: 48px; }
+
+/* ---- output praktikum (hasil echo PHP) ---- */
